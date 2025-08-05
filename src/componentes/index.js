@@ -7,3 +7,6 @@ export {default as Contacto} from './Contacto/index.jsx';
 //NARVAR
 export {default as Navbar} from './Navbar/Navbar.jsx';
 export {default as Logo} from './Navbar/Logo.jsx';
+
+//Titulo
+export {default as TituloSeccion} from './TituloSeccion/index.jsx';

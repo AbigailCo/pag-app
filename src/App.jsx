@@ -10,8 +10,8 @@ function App() {
       <main className="pt-20">
         <C.Navbar />
         <C.Inicio />
+          <C.Productos />
         <C.Nosotros />
-        <C.Productos />
         <C.Contacto />
       </main>
     </div>

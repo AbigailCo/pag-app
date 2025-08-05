@@ -2,7 +2,9 @@ import img from "../../assets/logo.png";
 function Logo() {
   return (
     <div className="flex items-center space-x-2">
-      <img src={img} alt="Logo" className="h-10 w-40 object-contain"/>
+      <a href="#inicio">
+        <img src={img} alt="Logo" className="h-20 w-80 object-contain cursor-pointer" />
+      </a>
     </div>
   );
 }

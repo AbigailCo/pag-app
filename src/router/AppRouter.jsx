@@ -7,11 +7,11 @@ function AppRouter() {
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/alfajores" element={<P.Alfajores />} />
-      <Route path="/budines" element={<P.Alfajores />} />
-      <Route path="/tortas" element={<P.Alfajores />} />
-      <Route path="/peluditos" element={<P.Alfajores />} />
-      <Route path="/cookies" element={<P.Alfajores />} />
-      <Route path="/especiales" element={<P.Alfajores />} />
+      <Route path="/budines" element={<P.Budines />} />
+      <Route path="/tortas" element={<P.Tortas />} />
+      <Route path="/peluditos" element={<P.Peluditos />} />
+      <Route path="/cookies" element={<P.Cookies />} />
+      <Route path="/especiales" element={<P.Especiales />} />
     </Routes>
   );
 }

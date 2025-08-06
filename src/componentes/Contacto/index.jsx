@@ -2,18 +2,19 @@ export default function Contacto() {
   return (
     <section
       id="contacto"
-      className="min-h-screen flex items-center justify-center bg-[#2e3458] px-4 py-16"
+      className="min-h-screen flex items-center justify-center bg-[#2e3458] px-4 "
     >
-      <div className="relative flex flex-col lg:flex-row items-center max-w-6xl w-full bg-[#f9e8d9] rounded-xl shadow-2xl overflow-hidden p-8 lg:p-16 gap-10">
-        
-        {/* Texto decorativo de fondo */}
+       <div className="flex flex-col items-center max-w-7xl w-full gap-8">
+        <h2 className="text-2xl sm:text-3xl font-bold text-[#dec09a] text-center">
+          CONTACTO
+        </h2>
+              <div className="relative flex flex-col lg:flex-row items-center max-w-6xl w-full bg-[#f9e8d9] rounded-xl shadow-2xl overflow-hidden p-8 lg:p-16 gap-10">
+      
         <div className="absolute left-6 top-6 text-[#173052] text-5xl lg:text-7xl font-extrabold opacity-10 leading-none z-0 select-none">
           <p>Contacto</p>
           <p className="italic">Contacto</p>
           <p>Contacto</p>
         </div>
-
-        {/* Contenido */}
         <div className="relative z-10 text-[#2e3458] text-center lg:text-left">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">¡Contactanos!</h2>
           <p className="text-sm sm:text-base mb-8 ">
@@ -50,6 +51,8 @@ export default function Contacto() {
           </div>
         </div>
       </div>
+      </div>
+
     </section>
   );
 }

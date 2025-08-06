@@ -17,6 +17,31 @@ function NavbarInterno() {
             Inicio
          </p>
          </Link>
+          <Link to="/alfajores">
+         <p className="text-[#dec09a] hover:underline hover:text-yellow-300 transition-colors">
+            Alfajores
+         </p>
+         </Link>
+          <Link to="/budines">
+         <p className="text-[#dec09a] hover:underline hover:text-yellow-300 transition-colors">
+            Budines
+         </p>
+         </Link>
+          <Link to="/tortas">
+         <p className="text-[#dec09a] hover:underline hover:text-yellow-300 transition-colors">
+            Tortas
+         </p>
+         </Link>
+          <Link to="/peluditos">
+         <p className="text-[#dec09a] hover:underline hover:text-yellow-300 transition-colors">
+            Peluditos
+         </p>
+         </Link>
+          <Link to="/especiales">
+         <p className="text-[#dec09a] hover:underline hover:text-yellow-300 transition-colors">
+            Especiales
+         </p>
+         </Link>
          
          
         </ul>

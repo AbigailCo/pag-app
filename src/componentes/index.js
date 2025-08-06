@@ -7,6 +7,14 @@ export {default as Contacto} from './Contacto/index.jsx';
 //NARVAR
 export {default as Navbar} from './Navbar/Navbar.jsx';
 export {default as Logo} from './Navbar/Logo.jsx';
+export {default as NavbarInterno} from './Navbar/NavbarInterno.jsx';
 
 //Titulo
 export {default as TituloSeccion} from './TituloSeccion/index.jsx';
+
+//Cards
+
+export {default as CardProducto} from './Productos/Cards/index.jsx';
+
+export {default as ProductoCard} from './CardsProductos/index.jsx';
+export {default as ModalProducto} from './ModalProductos/index.jsx';

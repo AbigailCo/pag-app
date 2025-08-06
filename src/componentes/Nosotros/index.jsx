@@ -1,8 +1,14 @@
+
+
 export default function Nosotros() {
   return (
-    <section id="nosotros" className="min-h-screen p-8 bg-white">
-      <h2 className="text-3xl font-semibold mb-4">Sobre Nosotros</h2>
-      <p>NO SOMOS MUCHOS NO SOMOS POCOS PERO ESTAMOS TODOS LOCOS</p>
+    <section
+      id="nosotros"
+      className="min-h-screen flex items-center justify-center bg-[#2e3458] px-4"
+    >
+       <h2 className="text-2xl sm:text-3xl font-bold text-[#dec09a] text-center mb-6">
+      SOBRE NOSOTROS
+    </h2>
     </section>
   )
 }

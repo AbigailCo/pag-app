@@ -1,8 +1,14 @@
+
+
 export default function Contacto() {
   return (
-    <section id="contacto" className="min-h-screen p-8 bg-gray-100">
-      <h2 className="text-3xl font-semibold mb-4">Contacto</h2>
-      <p>PodEs escribirnos a <a href="mailto:info@PONELE.com" className="text-blue-500 underline">info@PONELE.com</a></p>
+    <section
+      id="contacto"
+      className="min-h-screen flex items-center justify-center bg-[#2e3458] px-4"
+    >
+       <h2 className="text-2xl sm:text-3xl font-bold text-[#dec09a] text-center mb-6">
+      CONTACTOS
+    </h2>
     </section>
   )
 }

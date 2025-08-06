@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import * as C from "../index";
 
 function Navbar() {
@@ -6,22 +7,42 @@ function Navbar() {
       <div className="container mx-auto flex flex-col items-center justify-center px-4 py-4">
         {/* Logo centrado */}
         <div className="mb-4">
-          <C.Logo className="w-32 h-32" /> {/* Aumentá el tamaño si querés más grande */}
+          <C.Logo className="w-32 h-32" />{" "}
+          {/* Aumentï¿½ el tamaï¿½o si querï¿½s mï¿½s grande */}
         </div>
 
-        {/* Menú debajo del logo */}
+        {/* Menï¿½ debajo del logo */}
         <ul className="flex flex-wrap justify-center space-x-6 text-sm sm:text-base font-medium">
-         
           <li>
-            <a href="#productos" className="text-[#dec09a] hover:underline hover:text-yellow-300 transition-colors">Productos</a>
+            <a
+              href="#productos"
+              className="text-[#dec09a] hover:underline hover:text-yellow-300 transition-colors"
+            >
+              Productos
+            </a>
           </li>
           <li>
-            <a href="#nosotros" className="text-[#dec09a] hover:underline hover:text-yellow-300 transition-colors">Nosotros</a>
+            <a
+              href="#nosotros"
+              className="text-[#dec09a] hover:underline hover:text-yellow-300 transition-colors"
+            >
+              Nosotros
+            </a>
           </li>
 
           <li>
-            <a href="#contacto" className="text-[#dec09a] hover:underline hover:text-yellow-300 transition-colors">Contacto</a>
+            <a
+              href="#contacto"
+              className="text-[#dec09a] hover:underline hover:text-yellow-300 transition-colors"
+            >
+              Contacto
+            </a>
           </li>
+          <Link to="/carrito">
+            <p className="text-[#dec09a] hover:underline hover:text-yellow-300 transition-colors">
+              Carrito
+            </p>
+          </Link>
         </ul>
       </div>
     </nav>

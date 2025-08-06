@@ -1,4 +1,6 @@
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
+import * as C from "../index.js";
+
 
 export default function ModalProducto({ producto, onClose }) {
   if (!producto) return null;
@@ -19,16 +21,15 @@ export default function ModalProducto({ producto, onClose }) {
         />
         <h2 className="text-2xl font-bold text-gray-800">{producto.nombre}</h2>
         <p className="mt-2 text-gray-700">{producto.descripcion}</p>
-        <button 
-          onClick={onClose}
-        className="mt-4 bg-pink-600 text-white px-4 py-2 rounded-md hover:bg-pink-700">
-          Cerrar
-        </button>
+
+        <div  className="flex flex-col items-center gap-2 mt-4">
+          <C.BotonAgregar producto={producto} onClose={onClose}/>
+       
+        </div>
       </div>
     </div>
   );
 }
-
 
 ModalProducto.propTypes = {
   producto: PropTypes.shape({
@@ -38,5 +39,3 @@ ModalProducto.propTypes = {
   }).isRequired,
   onClose: PropTypes.func.isRequired,
 };
-
-

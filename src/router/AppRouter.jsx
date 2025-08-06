@@ -12,6 +12,7 @@ function AppRouter() {
       <Route path="/peluditos" element={<P.Peluditos />} />
       <Route path="/cookies" element={<P.Cookies />} />
       <Route path="/especiales" element={<P.Especiales />} />
+      <Route path="/carrito" element={<P.Carrito />} />
     </Routes>
   );
 }

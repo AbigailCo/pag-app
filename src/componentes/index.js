@@ -20,3 +20,4 @@ export {default as ModalProducto} from './ModalProductos/index.jsx';
 
 //Botones
 export {default as BotonAgregar} from './BotonAgregar/index.jsx';
+export {default as BotonCarrito} from './BotonCarrito/index.jsx';

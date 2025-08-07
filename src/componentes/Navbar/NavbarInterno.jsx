@@ -40,11 +40,7 @@ function NavbarInterno() {
               Especiales
             </p>
           </Link>
-          <Link to="/carrito">
-            <p className="text-[#dec09a] hover:underline hover:text-yellow-300 transition-colors">
-              Carrito
-            </p>
-          </Link>
+          <C.BotonCarrito />
         </ul>
       </div>
     </nav>

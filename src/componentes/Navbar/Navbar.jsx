@@ -5,13 +5,11 @@ function Navbar() {
   return (
     <nav className="bg-[#2e3458] text-white fixed top-0 w-full shadow z-50">
       <div className="container mx-auto flex flex-col items-center justify-center px-4 py-4">
-        {/* Logo centrado */}
+     
         <div className="mb-4">
           <C.Logo className="w-32 h-32" />{" "}
-          {/* Aument� el tama�o si quer�s m�s grande */}
         </div>
-
-        {/* Men� debajo del logo */}
+       
         <ul className="flex flex-wrap justify-center space-x-6 text-sm sm:text-base font-medium">
           <li>
             <a
@@ -38,12 +36,11 @@ function Navbar() {
               Contacto
             </a>
           </li>
-          <Link to="/carrito">
-            <p className="text-[#dec09a] hover:underline hover:text-yellow-300 transition-colors">
-              Carrito
-            </p>
-          </Link>
+          
+             <C.BotonCarrito />
+          
         </ul>
+       
       </div>
     </nav>
   );

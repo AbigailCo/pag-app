@@ -17,6 +17,7 @@ export default function BotonAgregar({ producto, onClose }) {
   const handleAgregar = () => {
     agregarAlCarrito({ ...producto, cantidad });
     toast.success(`${cantidad} x ${producto.nombre} agregado al pedido`);
+    onClose();
   };
 
   return (
